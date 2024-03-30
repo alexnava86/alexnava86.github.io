@@ -67,10 +67,24 @@ a:visited
 	text-align: end;
 	padding: 2%;
 }
-#introduction, #subsection
+#introduction
 {
-	margin: 24%, 2%, 2%;
-	padding: 0.5%;
+	margin: 24%, 2%, 2%, 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: #000000df;
+	z-index: 99;
+}
+#subsection
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
 	background-color: #000000df;
 	z-index: 99;
 }
