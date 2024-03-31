@@ -2,8 +2,8 @@ body
 {
 	font-family: "Open Sans", sans-serif;
 	color: #ffffff;
-	margin: 0%;
-	padding: 0%;
+	margin: 0;
+	padding: 0;
 	background-image: url(../Images/Backgrounds/vector-OCT-2020-58-150ppi.png);
 	background-size: cover;
 	background-position: top;
@@ -24,7 +24,7 @@ body
 }
 h1
 {
-	margin: 0%;
+	margin: 0;
 	padding: 2%;
 }
 h2
@@ -61,6 +61,8 @@ a:visited
 	position: fixed;
 	background-color: #000000df;
 	display: flex;
+	align-items: center;
+    justify-content: space-between;
 }
 #nav
 {
