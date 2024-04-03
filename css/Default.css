@@ -2,6 +2,8 @@ body
 {
 	font-family: "Open Sans", sans-serif;
 	color: #ffffff;
+	text-align:justify;
+	text-justify: auto;
 	margin: 0;
 	padding: 0;
 	background-image: url(../Images/Backgrounds/vector-OCT-2020-58-150ppi.png);
@@ -13,20 +15,24 @@ body
 .circle
 {
 	float:left;
-	padding-bottom: 1%;
-	padding-right: 2%;
+	/* padding-bottom: 1%;
+	padding-right: 1%; */
+	margin-right: 2%;
 	border-radius: 50%;
+	width: 192px;
+	height: 192px;
 }
 .logos
 {
-	padding: .5%;
+	/* padding: .5%; */
+	align-self: flex-start;
 }
 h1
 {
 	margin: 0;
-	padding: 2%;
+	padding: 1%;
 }
-h2
+h2 
 {
 	color: #a0a0a0;
 }
@@ -55,21 +61,22 @@ a:visited
 {
 	top: 0;
 	margin: 0;
-	padding: 0;
+	padding: 2%;
 	width: 100%;
 	position: fixed;
 	background-color: #000000df;
 	display: flex;
-	align-items: center;
-    justify-content: space-between;
+	/* align-items: center; */
+	flex-direction: row;
+    /* justify-content: space-between; */
 }
+/*
 #nav
 {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-	padding: 2%;
-}
+    /* display: flex; */ 
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+	/* padding: 2%; } */ 
 #introduction
 {
 	margin: 24% 2% 2% 2%;
@@ -101,6 +108,14 @@ a:visited
 }
 @media(max-width: 980px) 
 {
+	.circle
+	{
+		width: 128px;
+		height: 128px;
+	}
+	/*#banner
+	{
+		flex-direction: column;}*/
 	#introduction 
 	{
 	  margin-top: 29%;
