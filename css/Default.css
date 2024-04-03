@@ -47,15 +47,15 @@ h4
 }
 a:link
 {
-	color:#808080;
+	color:#a0a0a0; /*8000ff*/
 }
 a:hover
 {
-	color: #a0a0a0;
+	color: #00ffff; /*00ffff*/
 }
-a:visited
+a:visited	
 {
-	color: #a0a0a0;
+	color: #8000ff; /*8000ff*/
 }
 #banner
 {
