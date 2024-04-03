@@ -70,9 +70,11 @@ a:visited
 	flex-direction: row;
     /* justify-content: space-between; */
 }
-/*
+
 #nav
 {
+	display: flex;
+	flex-direction: column;}
     /* display: flex; */ 
     /* align-items: flex-end; */
     /* justify-content: flex-end; */
