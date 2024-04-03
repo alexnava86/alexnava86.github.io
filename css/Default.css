@@ -74,11 +74,22 @@ a:visited
 #nav
 {
 	display: flex;
-	flex-direction: column;}
-    /* display: flex; */ 
-    /* align-items: flex-end; */
+	align-items: flex-end;
+	align-content:stretch;
+	flex-direction: column;
+	justify-content: flex-end;
+}
     /* justify-content: flex-end; */
 	/* padding: 2%; } */ 
+
+#icons
+{
+	align-items: flex-start;
+}
+#links
+{
+	align-items: flex-end;
+}	
 #introduction
 {
 	margin: 24% 2% 2% 2%;
