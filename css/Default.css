@@ -42,13 +42,17 @@ a:link
 {
 	color:#a0a0a0; /*8000ff*/
 }
-a:hover
-{
-	color: #8000ff; /*00ffff*/
-}
 a:visited	
 {
 	color: #00ffff; /*8000ff*/
+}
+a:visited:hover	
+{
+	color: #ff00ff; /*8000ff*/
+}
+a:hover
+{
+	color: #8000ff; /*00ffff*/
 }
 #banner
 {
@@ -62,6 +66,10 @@ a:visited
 	/*margin: 0;*/
 	/* align-items: center; */
 	/* justify-content: space-between; */
+}
+#title
+{
+	font-weight: normal;
 }
 #nav
 {
