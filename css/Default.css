@@ -40,19 +40,19 @@ h4
 }
 a:link
 {
-	color:#a0a0a0; /*8000ff*/
+	color:#a0a0a0; /*a0a0a0*/
 }
 a:visited	
 {
-	color: #00ffff; /*8000ff*/
+	color: #00ffff; /*00ffff*/
 }
 a:visited:hover	
 {
-	color: #ff00ff; /*8000ff*/
+	color: #8000ff; /*8000ff*/
 }
 a:hover
 {
-	color: #8000ff; /*00ffff*/
+	color: #ff00ff; /*8000ff*/
 }
 #banner
 {
